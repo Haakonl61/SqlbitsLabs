@@ -47,6 +47,11 @@
 				]
 			}
 		],
+		"parameters": {
+			"Entity": {
+				"type": "string"
+			}
+		},
 		"annotations": []
 	}
 }
