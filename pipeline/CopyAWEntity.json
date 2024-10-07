@@ -61,8 +61,7 @@
 		],
 		"parameters": {
 			"Entity": {
-				"type": "string",
-				"defaultValue": "Product"
+				"type": "string"
 			}
 		},
 		"annotations": []
