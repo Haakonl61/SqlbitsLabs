@@ -39,7 +39,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"Entity": {
-								"value": "@pipeline().parameters.Entity",
+								"value": "Product",
 								"type": "Expression"
 							}
 						}
