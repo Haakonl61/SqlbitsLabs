@@ -50,10 +50,7 @@
 						"referenceName": "ADLS_BIN_AdventureWorks",
 						"type": "DatasetReference",
 						"parameters": {
-							"Entity": {
-								"value": "@pipeline().parameters.Entity",
-								"type": "Expression"
-							}
+							"Entity": "Product"
 						}
 					}
 				]
