@@ -1,0 +1,9 @@
+{
+	"name": "adf-haakonl6120241007",
+	"location": "norwayeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "fdde175b-3654-471c-9a48-07c80e5ad91b",
+		"tenantId": "d20d1db5-2109-4ad2-9d5a-b5a128abd526"
+	}
+}
