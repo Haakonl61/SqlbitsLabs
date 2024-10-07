@@ -25,11 +25,29 @@
 							"type": "BinaryReadSettings"
 						}
 					},
+					"sink": {
+						"type": "BinarySink",
+						"storeSettings": {
+							"type": "AzureBlobFSWriteSettings"
+						}
+					},
 					"enableStaging": false
 				},
 				"inputs": [
 					{
 						"referenceName": "HTTP_BIN_AdventureWorks",
+						"type": "DatasetReference",
+						"parameters": {
+							"Entity": {
+								"value": "@pipeline().parameters.Entity",
+								"type": "Expression"
+							}
+						}
+					}
+				],
+				"outputs": [
+					{
+						"referenceName": "ADLS_BIN_AdventureWorks",
 						"type": "DatasetReference",
 						"parameters": {
 							"Entity": {
