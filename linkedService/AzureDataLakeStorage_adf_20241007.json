@@ -1,0 +1,10 @@
+{
+	"name": "AzureDataLakeStorage_adf_20241007",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://haakonl6120241007.dfs.core.windows.net/"
+		}
+	}
+}
