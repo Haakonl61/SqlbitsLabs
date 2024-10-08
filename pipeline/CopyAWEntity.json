@@ -38,7 +38,10 @@
 						"referenceName": "HTTP_BIN_AdventureWorks",
 						"type": "DatasetReference",
 						"parameters": {
-							"Entity": "Product.csv"
+							"Entity": {
+								"value": "@pipeline().parameters.Entity",
+								"type": "Expression"
+							}
 						}
 					}
 				],
