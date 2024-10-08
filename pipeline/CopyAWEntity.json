@@ -35,11 +35,8 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "HTTP_BIN_AdventureWorks",
-						"type": "DatasetReference",
-						"parameters": {
-							"Entity": "@(dataset().Entity).csv "
-						}
+						"referenceName": "HTTP_BIN_AWProduct",
+						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
