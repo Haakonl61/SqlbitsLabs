@@ -16,7 +16,7 @@
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "@dataset().Entity",
+					"value": "@concat(dataset().Entity, '.csv')",
 					"type": "Expression"
 				}
 			}
