@@ -47,7 +47,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS_BIN_AWProduct",
+						"referenceName": "ADLS_BIN_AdventureWorks",
 						"type": "DatasetReference"
 					}
 				]

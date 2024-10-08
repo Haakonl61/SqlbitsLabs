@@ -16,7 +16,7 @@
 			"location": {
 				"type": "AzureBlobFSLocation",
 				"fileName": {
-					"value": "@(dataset().Entity).tsv",
+					"value": "@concat(dataset().Entity,'.tsv')",
 					"type": "Expression"
 				},
 				"folderPath": "Raw",
