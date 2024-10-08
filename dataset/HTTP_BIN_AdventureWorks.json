@@ -5,13 +5,18 @@
 			"referenceName": "HTTP_GitHubAW",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"Entity": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
 				"type": "HttpServerLocation",
 				"relativeUrl": {
-					"value": "Product.csv ",
+					"value": "@dataset().Entity",
 					"type": "Expression"
 				}
 			}
