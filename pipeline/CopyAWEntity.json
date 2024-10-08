@@ -35,7 +35,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "HTTP_BIN_AWProduct",
+						"referenceName": "HTTP_BIN_AdventureWorks",
 						"type": "DatasetReference"
 					}
 				],
