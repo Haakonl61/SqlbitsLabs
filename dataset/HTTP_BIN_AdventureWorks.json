@@ -5,11 +5,6 @@
 			"referenceName": "HTTP_GitHubAW",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"Entity": {
-				"type": "string"
-			}
-		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
