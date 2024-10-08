@@ -41,11 +41,8 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ADLS_BIN_AdventureWorks",
-						"type": "DatasetReference",
-						"parameters": {
-							"Entity": "Product"
-						}
+						"referenceName": "ADLS_BIN_AWProduct",
+						"type": "DatasetReference"
 					}
 				]
 			}
